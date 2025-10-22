@@ -1,0 +1,212 @@
+body{
+    overflow-x: hidden;
+}
+
+.title{
+    width: 30%;
+    background-color: #ffba00;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px !important;
+    text-align: right;
+}
+
+.banner{
+    font-family: 'Montserrat', sans-serif;
+    height: 18%;
+    background-color: #ffba00;
+    margin-top: 175px;
+}
+
+.banner a{
+    background-color: #ffba00;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    margin-top: 108px;
+}
+
+/* New Section */
+.new-section{
+    font-family: 'Lato', sans-serif;
+    padding: 89px 0px;
+}
+
+/* New Menu Section*/
+#expand{
+    margin-right: -10.4% !important;
+}
+
+.menu-background{
+    background: url("../img/new-menu-background.jpg"), rgba(0, 0, 0, 0.788);
+    background-size: cover;
+}
+
+.new-menu-padding{
+    padding: 5px 300px 40px 0px !important;
+}
+
+.custom-bg-yellow{
+    position: relative;
+    background-color: #ffba00;
+    background-size: 315px 315px !important;
+}
+
+.custom-bg-yellow::after{
+    content: "";
+    position: absolute;
+    right: 235px;
+    top: 50px;
+    background-color: #ffda00;
+    width: 65px;
+    height: 260px;
+}
+
+.gallery-background-yellow{
+    position: relative;
+}
+
+.gallery-background-yellow::after{
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    content: "";
+    background-color: #ffba00;
+    width: 190px;
+    height: 100%;
+}
+
+/*large device*/
+@media screen and (max-width: 1199px){
+    #expand{
+        margin-right: -28px !important;
+    }
+
+    .custom-bg-yellow{
+        position: relative;
+        background-color: #ffba00;
+        background-size: 315px 315px !important;
+    }
+    
+    .custom-bg-yellow::after{
+        content: "";
+        position: absolute;
+        right: 150px;
+        top: 50px;
+        background-color: #ffda00;
+        width: 65px;
+        height: 260px;
+    }
+
+    .gallery-background-yellow{
+        position: relative;
+    }
+    
+    .gallery-background-yellow::after{
+        position: absolute;
+        top: 0px;
+        left: 160px;
+        content: "";
+        background-color: #ffba00;
+        width: 160px;
+        height: 100%;
+    }
+}
+
+/*medium device*/
+@media screen and (max-width: 991px){
+    .banner{
+        font-family: 'Montserrat', sans-serif;
+        height: 15%;
+        background-color: #ffba00;
+        margin-top: 175px;
+    }
+
+    #expand{
+        margin-right: -36px !important;
+    }
+
+    .custom-bg-yellow{
+        position: relative;
+        background-color: #ffba00;
+        background-size: 315px 315px !important;
+    }
+    
+    .custom-bg-yellow::after{
+        content: "";
+        position: absolute;
+        right: 80px;
+        top: 50px;
+        background-color: #ffda00;
+        width: 65px;
+        height: 260px;
+    }
+
+    .gallery-background-yellow{
+        position: relative;
+    }
+    
+    .gallery-background-yellow::after{
+        position: absolute;
+        top: 0px;
+        left: 130px;
+        content: "";
+        background-color: #ffba00;
+        width: 130px;
+        height: 100%;
+    }
+}
+
+/*small device*/
+@media screen and (max-width: 767px) {
+    .title{
+        width: 45%;
+        background-color: #ffba00;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px !important;
+        text-align: right;
+    }
+
+    .banner{
+        font-family: 'Montserrat', sans-serif;
+        height: 12%;
+        background-color: #ffba00;
+        margin-top: 175px;
+    }
+
+    #expand{
+        margin: 0px !important;
+    }
+
+    .new-menu-padding{
+        padding: 0px !important;
+    }
+
+    .custom-bg-yellow{
+        position: relative;
+        background-color: #ffba00;
+        background-size: 315px 315px !important;
+    }
+    
+    .custom-bg-yellow::after{
+        content: "";
+        position: absolute;
+        right: 62px;
+        top: 50px;
+        background-color: #ffda00;
+        width: 65px;
+        height: 260px;
+    }
+
+    .gallery-background-yellow{
+        position: relative;
+    }
+    
+    .gallery-background-yellow::after{
+        position: absolute;
+        top: 0px;
+        left: 100px;
+        content: "";
+        background-color: #ffba00;
+        width: 100px;
+        height: 100%;
+    }
+}
