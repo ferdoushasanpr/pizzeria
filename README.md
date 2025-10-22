@@ -6,8 +6,7 @@ This project showcases a modern, responsive, and visually engaging interface for
 ---
 
 ## 🖼️ Project Preview
-
-![Pizzeria Full Screenshot](images/pizzeria-fullpage.png)  
+ 
 <img width="1905" height="4956" alt="_D__programming_react-js_react-js_bohubrihi-restaurent_New20folder_index html" src="https://github.com/user-attachments/assets/d9e7c2b6-96c9-40fe-b227-e115ea9844ef" />
 
 
@@ -42,7 +41,7 @@ The website is fully responsive and optimized for:
 
 ## 🚀 Live Demo
 
-👉 [View Live Website](#)  
+👉 [View Live Website](https://github.com/ferdoushasanpr/pizzeria.git)  
 
 ---
 
