@@ -41,7 +41,7 @@ The website is fully responsive and optimized for:
 
 ## 🚀 Live Demo
 
-👉 [View Live Website](https://github.com/ferdoushasanpr/pizzeria.git)  
+👉 [View Live Website](https://ferdoushasanpr.github.io/pizzeria/)  
 
 ---
 
